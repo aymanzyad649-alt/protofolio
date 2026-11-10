@@ -1,337 +1,433 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>𝒁𝒚𝒂𝒅 𝑨𝒚𝒎𝒂𝒏 | Web Designer & Front-End Developer</title>
+    <title>Zyad Ayman | Web Designer & Front-End Developer</title>
+    <meta name="description" content="Zyad Ayman — web designer and front-end developer building modern, responsive and elegant websites. HTML, CSS, JavaScript and UI/UX design.">
+    <meta name="theme-color" content="#0a0f0d">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- preview card for WhatsApp / Facebook. og:image and og:url wait for a real domain -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Zyad Ayman — Web Designer & Front-End Developer">
+    <meta property="og:description" content="Modern, responsive websites with attention to detail, content structure and user experience.">
+    <meta property="og:site_name" content="Zyad Ayman">
+    <meta name="twitter:card" content="summary">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
-    <nav class="nav">
-        <div class="nav-container">
-            <a class="nav-logo" href="#home">𝒁𝒚𝒂𝒅 𝑨𝒚𝒎𝒂𝒏</a>
-            <button class="nav-toggle" aria-label="Open menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <header id="home" class="hero">
-        <div class="hero-bg"></div>
-        <div class="hero-content">
-            <span class="hero-badge">Web Designer & Front-End Developer</span>
-            <h1 class="hero-title">Hi, I'm <span>𝒁𝒚𝒂𝒅 𝑨𝒚𝒎𝒂𝒏</span></h1>
-            <h2 class="hero-subtitle">Building Modern & Luxurious Web Experiences</h2>
-            <p class="hero-intro">
-                I design and develop modern, elegant websites that blend beauty, usability, and performance.
-                I transform ideas into professional, fully responsive interfaces for all devices.
-            </p>
-            <div class="hero-actions">
-                <a href="#projects" class="btn btn-primary">
-                    <span>View My Work</span>
-                    <i class="bi bi-arrow-right"></i>
-                </a>
-                <a href="https://photos.app.goo.gl/csqVd4Epz6oXKRecA" target="_blank" class="btn btn-glass">
-                    <span>View Gallery</span>
-                    <i class="bi bi-images"></i>
-                </a>
-            </div>
-            <div class="hero-social">
-                <a href="tel:+201013103189" aria-label="Call Me"><i class="bi bi-telephone"></i></a>
-                <a href="https://github.com/aymanzyad649-alt" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
-            </div>
-        </div>
-
-    </header>
-
-    <main>
-        <section id="about" class="section about">
-            <div class="section-header">
-                <span class="section-label">About Me</span>
-                <h2 class="section-title">Who I Am</h2>
-                <p class="section-subtitle">Passionate about details and crafting exceptional digital experiences</p>
-            </div>
-            <div class="about-grid">
-                <div class="about-card">
-                    <div class="about-icon">
-                        <i class="bi bi-brush"></i>
-                    </div>
-                    <h3>Creative Design</h3>
-                    <p>Crafting modern interfaces with harmonious colors and refined details that reflect your project's identity professionally.</p>
-                </div>
-                <div class="about-card">
-                    <div class="about-icon">
-                        <i class="bi bi-code-slash"></i>
-                    </div>
-                    <h3>Clean Development</h3>
-                    <p>Writing clean, structured code using modern web technologies to ensure high performance and fast loading.</p>
-                </div>
-                <div class="about-card">
-                    <div class="about-icon">
-                        <i class="bi bi-phone"></i>
-                    </div>
-                    <h3>Fully Responsive</h3>
-                    <p>Every project is fully responsive across all screen sizes, delivering a seamless experience on any device.</p>
-                </div>
-            </div>
-            <div class="about-text">
-                <p>
-                    I'm a web designer and front-end developer passionate about building modern and functional web experiences.
-                    I focus on turning ideas and designs into real, responsive websites with attention to detail,
-                    content structure, user experience, and performance. I always strive to deliver work that combines
-                    elegance and functionality to the highest professional standards.
-                </p>
-            </div>
-        </section>
-
-        <section id="skills" class="section skills">
-            <div class="section-header">
-                <span class="section-label">Skills</span>
-                <h2 class="section-title">What I Know</h2>
-                <p class="section-subtitle">Tools and technologies I use to bring ideas to life</p>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-group">
-                    <div class="skill-group-header">
-                        <i class="bi bi-laptop"></i>
-                        <h3>Web Development</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">HTML5</span>
-                        <span class="skill-tag">CSS3</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">Responsive Design</span>
-                        <span class="skill-tag">Flexbox & Grid</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <div class="skill-group-header">
-                        <i class="bi bi-palette"></i>
-                        <h3>Design</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Figma</span>
-                        <span class="skill-tag">Adobe XD</span>
-                        <span class="skill-tag">Adobe Photoshop</span>
-                        <span class="skill-tag">Adobe Illustrator</span>
-                        <span class="skill-tag">UI/UX Design</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <div class="skill-group-header">
-                        <i class="bi bi-stars"></i>
-                        <h3>Other Skills</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Problem Solving</span>
-                        <span class="skill-tag">Landing Pages</span>
-                        <span class="skill-tag">Responsive Design</span>
-                        <span class="skill-tag">Website Layout</span>
-                        <span class="skill-tag">Attention to Detail</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="section projects">
-            <div class="section-header">
-                <span class="section-label">My Work</span>
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">A selection of my recent projects</p>
-            </div>
-            <div class="projects-grid">
-                <article class="project-card">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <a href="https://aymanzyad649-alt.github.io/Zyadayman/" target="_blank" class="project-link">
-                                <i class="bi bi-box-arrow-up-right"></i>
-                            </a>
-                        </div>
-                        <div class="project-placeholder">
-                            <i class="bi bi-cup-hot"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <span class="project-category">E-Commerce Website</span>
-                        <h3 class="project-title">Ben El Ostatha</h3>
-                        <p class="project-description">
-                            A modern coffee shop website showcasing products with a clean layout, responsive design, and smooth user experience.
-                        </p>
-                        <div class="project-tech">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <a href="https://aymanzyad649-alt.github.io/Zyadayman/" target="_blank" class="project-btn">
-                            <span>View Project</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <a href="https://aymanzyad649-alt.github.io/Creative-Landing-Page/" target="_blank" class="project-link">
-                                <i class="bi bi-box-arrow-up-right"></i>
-                            </a>
-                        </div>
-                        <div class="project-placeholder">
-                            <i class="bi bi-lightbulb"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <span class="project-category">Landing Page</span>
-                        <h3 class="project-title">Creative Landing Page</h3>
-                        <p class="project-description">
-                            A modern landing page designed to showcase a service or product with clarity, elegance, and strong visual focus.
-                        </p>
-                        <div class="project-tech">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <a href="https://aymanzyad649-alt.github.io/Creative-Landing-Page/" target="_blank" class="project-btn">
-                            <span>View Project</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <a href="https://aymanzyad649-alt.github.io/Personal-Portfolio/" target="_blank" class="project-link">
-                                <i class="bi bi-box-arrow-up-right"></i>
-                            </a>
-                        </div>
-                        <div class="project-placeholder">
-                            <i class="bi bi-person-badge"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <span class="project-category">Personal Portfolio</span>
-                        <h3 class="project-title">Personal Portfolio</h3>
-                        <p class="project-description">
-                            A professional portfolio website to showcase skills and projects with responsive design and smooth user experience.
-                        </p>
-                        <div class="project-tech">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <a href="https://aymanzyad649-alt.github.io/Personal-Portfolio/" target="_blank" class="project-btn">
-                            <span>View Project</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section id="contact" class="section contact-section">
-            <div class="contact-container">
-                <div class="section-header">
-                    <span class="section-label">Get In Touch</span>
-                    <h2 class="section-title">Let's Work Together</h2>
-                    <p class="section-subtitle">Have a project in mind? Let's turn it into something amazing</p>
-                </div>
-                <div class="contact-grid">
-                    <a href="tel:+201013103189" class="contact-card">
-                        <div class="contact-icon">
-                            <i class="bi bi-telephone"></i>
-                        </div>
-                        <div class="contact-info">
-                            <span class="contact-label">Phone</span>
-                            <span class="contact-value">+20 101 310 3189</span>
-                        </div>
-                        <i class="bi bi-arrow-right contact-arrow"></i>
-                    </a>
-                    <a href="https://drive.google.com/open?id=1eGvBGZPC6Msey39kqJ86uYsZfhBckTUZ&usp=drive_fs" target="_blank" class="contact-card">
-                        <div class="contact-icon">
-                            <i class="bi bi-images"></i>
-                        </div>
-                        <div class="contact-info">
-                            <span class="contact-label">Gallery</span>
-                            <span class="contact-value">View All Works</span>
-                        </div>
-                        <i class="bi bi-arrow-right contact-arrow"></i>
-                    </a>
-                    <a href="https://github.com/aymanzyad649-alt" target="_blank" class="contact-card">
-                        <div class="contact-icon">
-                            <i class="bi bi-github"></i>
-                        </div>
-                        <div class="contact-info">
-                            <span class="contact-label">GitHub</span>
-                            <span class="contact-value">aymanzyad649-alt</span>
-                        </div>
-                        <i class="bi bi-arrow-right contact-arrow"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>𝒁𝒚𝒂𝒅 𝑨𝒚𝒎𝒂𝒏</h3>
-                    <p>Web Designer & Front-End Developer</p>
-                </div>
-                <div class="footer-social">
-                    <a href="tel:+201013103189" aria-label="Call"><i class="bi bi-telephone"></i></a>
-                    <a href="https://github.com/aymanzyad649-alt" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© 2025 𝒁𝒚𝒂𝒅 𝑨𝒚𝒎𝒂𝒏. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        const navToggle = document.querySelector('.nav-toggle');
-        const navLinks = document.querySelector('.nav-links');
-        const navItems = document.querySelectorAll('.nav-links a');
-
-        navToggle.addEventListener('click', () => {
-            navToggle.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-
-        navItems.forEach(item => {
-            item.addEventListener('click', () => {
-                navToggle.classList.remove('active');
-                navLinks.classList.remove('active');
-            });
-        });
-
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('.nav');
-            if (window.scrollY > 50) {
-                nav.classList.add('scrolled');
-            } else {
-                nav.classList.remove('scrolled');
-            }
-        });
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Zyad Ayman",
+        "jobTitle": "Web Designer & Front-End Developer",
+        "telephone": "+201013103189",
+        "sameAs": ["https://github.com/aymanzyad649-alt"]
+    }
     </script>
-</body>
+</head>
+<body>
 
+<div class="progress" aria-hidden="true"></div>
+
+<!-- nav -->
+<nav class="nav">
+    <div class="nav-container">
+        <a class="nav-logo" href="#home">Zyad Ayman</a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <span class="hero-badge">Web Designer & Front-End Developer</span>
+        <h1 class="hero-title">Hi, I'm <span>Zyad Ayman</span></h1>
+        <h2 class="hero-subtitle">Building Modern & Luxurious Web Experiences</h2>
+        <p class="hero-intro">
+            I design and develop modern, elegant websites that blend beauty, usability, and performance.
+            I transform ideas into professional, fully responsive interfaces for all devices.
+        </p>
+        <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary"><span>View My Work</span><i class="bi bi-arrow-right"></i></a>
+            <a href="https://photos.app.goo.gl/csqVd4Epz6oXKRecA" target="_blank" rel="noopener" class="btn btn-glass"><span>View Gallery</span><i class="bi bi-images"></i></a>
+        </div>
+        <div class="hero-social">
+            <a href="tel:+201013103189" aria-label="Call Me"><i class="bi bi-telephone"></i></a>
+            <a href="https://wa.me/201013103189" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://github.com/aymanzyad649-alt" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        </div>
+    </div>
+</header>
+
+<!-- the endless tool strip, second copy is what makes the loop seamless -->
+<div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+        <div class="marquee-group">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+            <span>Figma</span>
+            <span>Adobe XD</span>
+            <span>Photoshop</span>
+            <span>Illustrator</span>
+            <span>UI / UX</span>
+            <span>Landing Pages</span>
+        </div>
+        <div class="marquee-group">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+            <span>Figma</span>
+            <span>Adobe XD</span>
+            <span>Photoshop</span>
+            <span>Illustrator</span>
+            <span>UI / UX</span>
+            <span>Landing Pages</span>
+        </div>
+    </div>
+</div>
+
+<main>
+    <section id="about" class="section about">
+        <div class="section-header">
+            <span class="section-label">About Me</span>
+            <h2 class="section-title">Who I Am</h2>
+            <p class="section-subtitle">Passionate about details and crafting exceptional digital experiences</p>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-card">
+                <div class="about-icon"><i class="bi bi-brush"></i></div>
+                <h3>Creative Design</h3>
+                <p>Crafting modern interfaces with harmonious colors and refined details that reflect your project's identity professionally.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon"><i class="bi bi-code-slash"></i></div>
+                <h3>Clean Development</h3>
+                <p>Writing clean, structured code using modern web technologies to ensure high performance and fast loading.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon"><i class="bi bi-phone"></i></div>
+                <h3>Fully Responsive</h3>
+                <p>Every project is fully responsive across all screen sizes, delivering a seamless experience on any device.</p>
+            </div>
+        </div>
+
+        <div class="about-text">
+            <p>
+                I'm a web designer and front-end developer passionate about building modern and functional web experiences.
+                I focus on turning ideas and designs into real, responsive websites with attention to detail,
+                content structure, user experience, and performance. I always strive to deliver work that combines
+                elegance and functionality to the highest professional standards.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="section-header">
+            <span class="section-label">Skills</span>
+            <h2 class="section-title">What I Know</h2>
+            <p class="section-subtitle">Tools and technologies I use to bring ideas to life</p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-group">
+                <div class="skill-group-header">
+                    <i class="bi bi-laptop"></i>
+                    <h3>Web Development</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <span class="skill-tag">Flexbox & Grid</span>
+                </div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-group-header">
+                    <i class="bi bi-palette"></i>
+                    <h3>Design</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Adobe XD</span>
+                    <span class="skill-tag">Adobe Photoshop</span>
+                    <span class="skill-tag">Adobe Illustrator</span>
+                    <span class="skill-tag">UI/UX Design</span>
+                </div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-group-header">
+                    <i class="bi bi-stars"></i>
+                    <h3>Other Skills</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Landing Pages</span>
+                    <span class="skill-tag">Cross-Browser Testing</span>
+                    <span class="skill-tag">Website Layout</span>
+                    <span class="skill-tag">Attention to Detail</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="section-header">
+            <span class="section-label">My Work</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A selection of my recent projects</p>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-image">
+                    <div class="project-overlay">
+                        <a href="https://aymanzyad649-alt.github.io/Zyadayman/" target="_blank" rel="noopener" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                    <div class="project-placeholder"><i class="bi bi-cup-hot"></i></div>
+                </div>
+                <div class="project-content">
+                    <span class="project-category">E-Commerce Website</span>
+                    <h3 class="project-title">Ben El Ostatha</h3>
+                    <p class="project-description">A modern coffee shop website showcasing products with a clean layout, responsive design, and smooth user experience.</p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <a href="https://aymanzyad649-alt.github.io/Zyadayman/" target="_blank" rel="noopener" class="project-btn"><span>View Project</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <div class="project-overlay">
+                        <a href="https://aymanzyad649-alt.github.io/Creative-Landing-Page/" target="_blank" rel="noopener" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                    <div class="project-placeholder"><i class="bi bi-lightbulb"></i></div>
+                </div>
+                <div class="project-content">
+                    <span class="project-category">Landing Page</span>
+                    <h3 class="project-title">Creative Landing Page</h3>
+                    <p class="project-description">A modern landing page designed to showcase a service or product with clarity, elegance, and strong visual focus.</p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <a href="https://aymanzyad649-alt.github.io/Creative-Landing-Page/" target="_blank" rel="noopener" class="project-btn"><span>View Project</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <div class="project-overlay">
+                        <a href="https://aymanzyad649-alt.github.io/Personal-Portfolio/" target="_blank" rel="noopener" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                    <div class="project-placeholder"><i class="bi bi-person-badge"></i></div>
+                </div>
+                <div class="project-content">
+                    <span class="project-category">Personal Portfolio</span>
+                    <h3 class="project-title">Personal Portfolio</h3>
+                    <p class="project-description">A professional portfolio website to showcase skills and projects with responsive design and smooth user experience.</p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <a href="https://aymanzyad649-alt.github.io/Personal-Portfolio/" target="_blank" rel="noopener" class="project-btn"><span>View Project</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="contact-container">
+            <div class="section-header">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Have a project in mind? Let's turn it into something amazing</p>
+            </div>
+
+            <div class="contact-grid">
+                <a href="tel:+201013103189" class="contact-card">
+                    <div class="contact-icon"><i class="bi bi-telephone"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">Phone</span>
+                        <span class="contact-value">+20 101 310 3189</span>
+                    </div>
+                    <i class="bi bi-arrow-right contact-arrow"></i>
+                </a>
+                <a href="https://drive.google.com/open?id=1eGvBGZPC6Msey39kqJ86uYsZfhBckTUZ&usp=drive_fs" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon"><i class="bi bi-images"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">Gallery</span>
+                        <span class="contact-value">View All Works</span>
+                    </div>
+                    <i class="bi bi-arrow-right contact-arrow"></i>
+                </a>
+                <a href="https://wa.me/201013103189" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon"><i class="bi bi-whatsapp"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">WhatsApp</span>
+                        <span class="contact-value">Chat with me</span>
+                    </div>
+                    <i class="bi bi-arrow-right contact-arrow"></i>
+                </a>
+                <a href="https://github.com/aymanzyad649-alt" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon"><i class="bi bi-github"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-value">aymanzyad649-alt</span>
+                    </div>
+                    <i class="bi bi-arrow-right contact-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Zyad Ayman</h3>
+                <p>Web Designer & Front-End Developer</p>
+            </div>
+            <div class="footer-social">
+                <a href="tel:+201013103189" aria-label="Call"><i class="bi bi-telephone"></i></a>
+                <a href="https://wa.me/201013103189" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://github.com/aymanzyad649-alt" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="year">2026</span> Zyad Ayman. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<button class="to-top" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 46 46" aria-hidden="true"><circle class="to-top-ring" cx="23" cy="23" r="21"></circle></svg>
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    const nav = document.querySelector('.nav');
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.nav-links');
+    const links = menu.querySelectorAll('a');
+    const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // mobile panel
+    const setMenu = open => {
+        toggle.classList.toggle('active', open);
+        menu.classList.toggle('active', open);
+        toggle.setAttribute('aria-expanded', open);
+        document.body.classList.toggle('menu-open', open);
+    };
+
+    toggle.addEventListener('click', () => setMenu(!menu.classList.contains('active')));
+    links.forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+    // Esc closes it, so does a tap outside
+    addEventListener('keydown', e => {
+        if (e.key !== 'Escape' || !menu.classList.contains('active')) return;
+        setMenu(false);
+        toggle.focus();
+    });
+
+    addEventListener('click', e => {
+        if (!menu.classList.contains('active')) return;
+        if (menu.contains(e.target) || toggle.contains(e.target)) return;
+        setMenu(false);
+    });
+
+    // reading bar, ring around the up arrow, active nav item
+    const bar = document.querySelector('.progress');
+    const toTop = document.querySelector('.to-top');
+    const ring = document.querySelector('.to-top-ring');
+    const ringLen = 2 * Math.PI * 21;
+    const sections = document.querySelectorAll('header[id], main section[id]');
+
+    ring.style.strokeDasharray = ringLen;
+    ring.style.strokeDashoffset = ringLen;
+
+    const onScroll = () => {
+        const y = scrollY;
+        const max = document.documentElement.scrollHeight - innerHeight;
+        const pct = max > 0 ? Math.min(y / max, 1) : 0;
+
+        nav.classList.toggle('scrolled', y > 50);
+        bar.style.transform = `scaleX(${pct})`;
+        ring.style.strokeDashoffset = ringLen * (1 - pct);
+        toTop.classList.toggle('show', y > 600);
+
+        let current = sections[0];
+        for (const s of sections) if (s.offsetTop <= y + 130) current = s;
+
+        links.forEach(a => {
+            const on = a.hash === '#' + current.id;
+            a.classList.toggle('active', on);
+            on ? a.setAttribute('aria-current', 'true') : a.removeAttribute('aria-current');
+        });
+    };
+
+    onScroll();
+    addEventListener('scroll', onScroll, { passive: true });
+    addEventListener('resize', onScroll);
+
+    toTop.addEventListener('click', () => scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' }));
+
+    // fade blocks in the first time they show up
+    const targets = document.querySelectorAll('.section-header, .about-card, .about-text, .skill-group, .project-card, .contact-card');
+
+    if (!calm && 'IntersectionObserver' in window) {
+        targets.forEach(el => el.classList.add('reveal'));
+
+        const io = new IntersectionObserver((entries, obs) => {
+            entries.forEach(({ isIntersecting, target }) => {
+                if (!isIntersecting) return;
+
+                const sibs = [...target.parentElement.children].filter(c => c.classList.contains('reveal'));
+                target.style.transitionDelay = sibs.indexOf(target) * 70 + 'ms';
+                target.classList.add('is-visible');
+                obs.unobserve(target);
+
+                // clean up afterwards so hover transitions stay snappy
+                setTimeout(() => {
+                    target.classList.remove('reveal', 'is-visible');
+                    target.style.transitionDelay = '';
+                }, 1000);
+            });
+        }, { threshold: .15, rootMargin: '0px 0px -40px 0px' });
+
+        targets.forEach(el => io.observe(el));
+    }
+
+    // small light that follows the pointer over a project card
+    if (!calm && matchMedia('(hover: hover)').matches) {
+        document.querySelectorAll('.project-card').forEach(card => card.addEventListener('pointermove', e => {
+            const box = card.getBoundingClientRect();
+            card.style.setProperty('--mx', (e.clientX - box.left) + 'px');
+            card.style.setProperty('--my', (e.clientY - box.top) + 'px');
+        }));
+    }
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
 </html>
- 
